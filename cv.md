@@ -33,7 +33,7 @@
 ## Languages:
 *English level: A2*
 
-## Code examples:
+## Code examples (by JS):
 
 ```javascript
 JavaScript:
@@ -44,6 +44,5 @@ function multiply(a, b){
 function multiply($a, $b) {
 return $a * $b;
 }
-
 
 
