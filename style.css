@@ -1,1 +1,71 @@
-css
+@font-face {
+  font-family: Roboto;
+   src: url("assets/fonts/Roboto.ttf");
+ }
+* {
+box-sizing: border-box;
+
+}
+html {
+  scroll-behavior: smooth; 
+}
+.header {
+  background-color: burlywood;
+  margin-bottom: 20px;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link, .footer-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 3.s;
+  color:black
+}
+
+.nav-link:hover, .footer-link:hover {
+  color: red;
+}
+.footer {
+  background-color: burlywood;
+  padding: 10px 0;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+  .main-info {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-bottom:  2px solid black;
+position: relative;
+  }
+.section {
+  padding: 20px 10px;
+}
